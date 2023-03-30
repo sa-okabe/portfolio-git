@@ -278,7 +278,8 @@ module.exports = {
       "spin": "spin 1s linear infinite",
       "ping": "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
       "pulse": "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-      "bounce": "bounce 1s infinite"
+      "bounce": "bounce 1s infinite",
+      "scale-in-center": "scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both"
     },
     "aria": {
       "checked": "checked=\"true\"",
@@ -3297,6 +3298,16 @@ module.exports = {
       "spin": {
         "to": {
           "transform": "rotate(360deg)"
+        },
+        "scale-in-center": {
+          "0%": {
+            transform: "scale(0)",
+            opacity: "1"
+          },
+          to: {
+            transform: "scale(1)",
+            opacity: "1"
+          }
         }
       },
       "ping": {
