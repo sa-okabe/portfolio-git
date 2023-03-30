@@ -1,38 +1,11 @@
 <template>
     <NavBar />
-    <div class="shadow rounded overflow-hidden flex justify-between mb-4">
-        <div class="flex">
-            <img src="~/assets/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg" alt="" class="w-80 mr-3 h-44" />
-            <div class="p-3">
-                <h1 class="text-2xl">名前</h1>
-                <p class="text-blue-400">値段</p>
-            </div>
-        </div>
-        <div class="p-3 flex">
-            <!-- <NuxtLink
-        class="text-blue-400 mr-4"
-        :to="`/profile/listings/view/${listing.id}`"
-        >View</NuxtLink
-      > -->
-            <p class="text-red-400 cursor-pointer">Delete</p>
-        </div>
-
-    </div>
-    <div class="shadow rounded overflow-hidden flex justify-between mb-4">
-        <div class="flex">
-            <img src="~/assets/karl-pawlowicz-QUHuwyNgSA0-unsplash.jpg" alt="" class="w-80 mr-3 h-44" />
-            <div class="p-3">
-                <h1 class="text-2xl">名前</h1>
-                <p class="text-blue-400">値段</p>
-            </div>
-        </div>
-        <div class="p-3 flex">
-            <!-- <NuxtLink
-        class="text-blue-400 mr-4"
-        :to="`/profile/listings/view/${listing.id}`"
-        >View</NuxtLink
-      > -->
-            <p class="text-red-400 cursor-pointer">Delete</p>
+    <div
+        class="relative h-screen bg-cover bg-bottom bg-[url('~/assets/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg')]">
+        <div class="z-10 absolute w-full h-full flex justify-center items-center opacity-25">
+            <span class="bg-green-100 w-48 h-48 mr-11">1</span>
+            <span class="bg-green-100 px-2 ml-1 w-48 h-48 mr-11">2</span>
+            <span class="bg-green-100 px-2 ml-1 w-48 h-48 mr-11">3</span>
         </div>
     </div>
 </template>

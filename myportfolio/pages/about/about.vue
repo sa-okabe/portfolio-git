@@ -3,7 +3,7 @@
     <div
         class="relative h-96 w-full mt-10 bg-no-repeat bg-cover bg-center drop-shadow-2xl bg-[url('~/assets/birmingham-museums-trust-p00MgXaa6as-unsplash.jpg')] animate-scale-in-center">
         <h1 class="font-serif">ab0ut</h1>
-        <div class="font-serif font-semibold text-lg mt-6 ml-4 text-white">
+        <div class="font-serif font-semibold text-lg mt-6 ml-4 text-white animate-scale-in-center">
             <p>イギリスの大学でビジネスコミュニケーション学、マーケティングなどを学ぶ。</p>
             <p>就職活動時の自己分析をした上で気づいた、『物事の仕組みそのもの』が好きなこと、『自分の手で何かを生み出していきたい』を活かすため、</p>
             <p>エンジニアとして前会社に入社。</p>
