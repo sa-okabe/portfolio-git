@@ -1,4 +1,5 @@
-npmmodule.exports = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   "theme": {
     "accentColor": {
       "inherit": "inherit",
@@ -6141,23 +6142,18 @@ npmmodule.exports = {
     "content"
   ],
   "plugins": [],
-  "content": {
-    "relative": false,
-    "files": [
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/components/**/*.{vue,js,ts}",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/layouts/**/*.vue",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/pages/**/*.vue",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/composables/**/*.{js,ts}",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/plugins/**/*.{js,ts}",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/utils/**/*.{js,ts}",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/App.{js,ts,vue}",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/app.{js,ts,vue}",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/Error.{js,ts,vue}",
-      "/Users/okabe/Desktop/portfolio-git/myportfolio/error.{js,ts,vue}"
-    ],
-    "extract": {},
-    "transform": {}
-  },
+  "content": [
+    "./components/**/*.{vue,js,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./composables/**/*.{js,ts}",
+    "./plugins/**/*.{js,ts}",
+    "./utils/**/*.{js,ts}",
+    "./App.{js,ts,vue}",
+    "./app.{js,ts,vue}",
+    "./Error.{js,ts,vue}",
+    "./error.{js,ts,vue}"
+  ],
   "presets": [],
   "darkMode": "media",
   "prefix": "",
