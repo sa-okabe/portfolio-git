@@ -3,7 +3,7 @@
     <form class="container mx-auto">
 
         <h2 class="text-base font-semibold leading-7 text-gray-900">
-            contact</h2>
+            contactme</h2>
         <p class="mt-1 text-sm leading-6 text-gray-600">Use a permanent address where you
             can receive mail.</p>
 
