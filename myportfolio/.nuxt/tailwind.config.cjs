@@ -3297,16 +3297,16 @@ module.exports = {
       "spin": {
         "to": {
           "transform": "rotate(360deg)"
+        }
+      },
+      "scale-in-center": {
+        "0%": {
+          "transform": "scale(0)",
+          "opacity": "1"
         },
-        "scale-in-center": {
-          "0%": {
-            "transform": "scale(0)",
-            "opacity": "1"
-          },
-          "to": {
-            "transform": "scale(1)",
-            "opacity": "1"
-          }
+        "to": {
+          "transform": "scale(1)",
+          "opacity": "1"
         }
       },
       "ping": {

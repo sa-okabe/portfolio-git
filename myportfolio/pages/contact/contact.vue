@@ -1,11 +1,21 @@
+<script setup>
+
+const navigate = () => {
+    return navigateTo('/');
+}
+
+
+
+
+</script>
+
 <template>
     <NavBar />
     <form class="container mx-auto">
 
         <h2 class="text-base font-semibold leading-7 text-gray-900">
-            contactme</h2>
-        <p class="mt-1 text-sm leading-6 text-gray-600">Use a permanent address where you
-            can receive mail.</p>
+            contact</h2>
+        <p class="mt-1 text-sm leading-6 text-gray-600">サイトに関して感想等ございましたら、以下のフォームからご連絡ください。</p>
 
         <div class="mt-10 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-6">
             <div class="sm:col-span-3">
@@ -30,9 +40,9 @@
                 </div>
                 <p class="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about yourself.</p>
             </div>
-            <button
-                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-pink-500 duration-300 bg-orange-400 px-10 text-white">
-                送信
+            <button @click="navigate"
+                class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300 bg-green-400 px-10 text-white">
+                Send
             </button>
         </div>
 

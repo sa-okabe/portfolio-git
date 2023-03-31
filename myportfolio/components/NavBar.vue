@@ -10,7 +10,7 @@
                 about</NuxtLink>
             <NuxtLink to="/works/works"
                 class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-pink-900 hover:bg-gray-50">
-                career</NuxtLink>
+                skills</NuxtLink>
             <NuxtLink to="/contact/contact"
                 class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-pink-900 hover:bg-gray-50">
                 contact</NuxtLink>
